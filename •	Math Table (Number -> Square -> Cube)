@@ -1,0 +1,47 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{ //Beginning of Main Function
+    
+    int varNum; 
+    
+    cout << "Number\tSquare\tCube" << endl; // Creates Columns
+    
+    varNum = 0;
+    cout << varNum << "\t" << pow(varNum, 2) << "\t" << pow(varNum, 3) << endl; // Each line finds square and cube for each number
+    
+    varNum = 1;
+    cout << varNum << "\t" << pow(varNum, 2) << "\t" << pow(varNum, 3) << endl;
+    
+    varNum = 2;
+    cout << varNum << "\t" << pow(varNum, 2) << "\t" << pow(varNum, 3) << endl;
+    
+    varNum = 3;
+    cout << varNum << "\t" << pow(varNum, 2) << "\t" << pow(varNum, 3) << endl;
+    
+    varNum = 4;
+    cout << varNum << "\t" << pow(varNum, 2) << "\t" << pow(varNum, 3) << endl;
+    
+    varNum = 5;
+    cout << varNum << "\t" << pow(varNum, 2) << "\t" << pow(varNum, 3) << endl;
+    
+    varNum = 6;
+    cout << varNum << "\t" << pow(varNum, 2) << "\t" << pow(varNum, 3) << endl;
+    
+    varNum = 7;
+    cout << varNum << "\t" << pow(varNum, 2) << "\t" << pow(varNum, 3) << endl;
+    
+    varNum = 8;
+    cout << varNum << "\t" << pow(varNum, 2) << "\t" << pow(varNum, 3) << endl;
+    
+    varNum = 9;
+    cout << varNum << "\t" << pow(varNum, 2) << "\t" << pow(varNum, 3) << endl;
+    
+    varNum = 10;
+    cout << varNum << "\t" << pow(varNum, 2) << "\t" << pow(varNum, 3) << endl;
+
+    return 0;
+} // End of Main Function

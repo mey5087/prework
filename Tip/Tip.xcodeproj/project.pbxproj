@@ -14,6 +14,7 @@
 		3A8E02412564C96F00344D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8E023F2564C96F00344D55 /* LaunchScreen.storyboard */; };
 		3A8E024C2564C96F00344D55 /* TipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E024B2564C96F00344D55 /* TipTests.swift */; };
 		3A8E02572564C96F00344D55 /* TipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E02562564C96F00344D55 /* TipUITests.swift */; };
+		3ABE665125682ED3005E16DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE665025682ED3005E16DD /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3A8E02522564C96F00344D55 /* TipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8E02562564C96F00344D55 /* TipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipUITests.swift; sourceTree = "<group>"; };
 		3A8E02582564C96F00344D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ABE665025682ED3005E16DD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../Desktop/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		3A8E022A2564C96D00344D55 = {
 			isa = PBXGroup;
 			children = (
+				3ABE665025682ED3005E16DD /* Main.storyboard */,
 				3A8E02352564C96D00344D55 /* Tip */,
 				3A8E024A2564C96F00344D55 /* TipTests */,
 				3A8E02552564C96F00344D55 /* TipUITests */,
@@ -232,6 +235,7 @@
 				3A8E02412564C96F00344D55 /* LaunchScreen.storyboard in Resources */,
 				3A8E023E2564C96F00344D55 /* Assets.xcassets in Resources */,
 				3A8E023C2564C96D00344D55 /* Main.storyboard in Resources */,
+				3ABE665125682ED3005E16DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R383R45CT5;
 				INFOPLIST_FILE = Tip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R383R45CT5;
 				INFOPLIST_FILE = Tip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
